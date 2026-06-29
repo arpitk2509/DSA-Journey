@@ -11,5 +11,5 @@ class Solution:
                 if basket[left_fruit]==0:
                     del basket[left_fruit]
                 left+=1
-            max_fruit= max(max_fruit, right - left + 1)
+            max_fruit=max(max_fruit,right-left+1)
         return max_fruit
